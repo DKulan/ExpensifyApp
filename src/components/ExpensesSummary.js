@@ -10,7 +10,7 @@ export class ExpensesSummary extends React.Component {
     const {expenseCount, expenseTotal} = this.props
 
     return (
-      <h1>Viewing {expenseCount} expense{(expenseCount === 0 || expenseCount > 1) && 's'} totalling {numeral(expenseTotal/100).format('$0,0.00')}</h1>
+      <h2>Viewing {expenseCount} expense{(expenseCount === 0 || expenseCount > 1) && 's'} totalling {numeral(expenseTotal/100).format('$0,0.00')}</h2>
     )
   }
 }
