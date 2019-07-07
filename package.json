@@ -24,6 +24,7 @@
     "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "^3.3.5",
     "firebase": "^6.2.4",
+    "history": "^4.9.0",
     "jest": "^24.8.0",
     "moment": "^2.24.0",
     "node-sass": "^4.12.0",

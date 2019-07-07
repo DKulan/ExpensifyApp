@@ -1,5 +1,13 @@
 import {firebase, googleProvider} from '../firebase/firebase'
 
+const login = (uid) => ({
+  type: 'LOGIN',
+  uid
+})
+
+const logout = () => ({
+  type: 'LOGOUT'
+})
 
 const startLogin = () => {
   return () => {
@@ -13,4 +21,4 @@ const startLogout = () => {
   }
 }
 
-export {startLogin, startLogout}
+export {startLogin, startLogout, login, logout}
